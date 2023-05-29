@@ -1,7 +1,7 @@
 export const products = [
     {
         id: 1,
-        img: require("./img/img1.jpg"),
+        img: require("./img/112.jpg"),
         name: "Green-foot",
         details: `perfect casual wear companion. Featuring a durable rubber outer sole, 
                   they'll withstand everything the weather can offer.`,
@@ -37,7 +37,7 @@ export const products = [
     },
     {
         id: 5,
-        img: require("./img/img3.jpg"),
+        img: require("./img/11.jpg"),
         name: "Blue-sky",
         details: `perfect casual wear companion. Featuring a durable rubber outer sole, 
                   they'll withstand everything the weather can offer.`,
@@ -46,7 +46,7 @@ export const products = [
     },
     {
         id: 6,
-        img: require("./img/img4.jpg"),
+        img: require("./img/7.jpg"),
         name: "Yellow-fast",
         details: `perfect casual wear companion. Featuring a durable rubber outer sole, 
                   they'll withstand everything the weather can offer.`,
@@ -55,7 +55,7 @@ export const products = [
     },
     {
         id: 7,
-        img: require("./img/img2.jpg"),
+        img: require("./img/9.jpg"),
         name: "Red-skipper",
         details: `perfect casual wear companion. Featuring a durable rubber outer sole, 
                   they'll withstand everything the weather can offer.`,
