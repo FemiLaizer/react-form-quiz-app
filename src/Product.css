@@ -27,15 +27,59 @@
 .Product .qtyBox .qty{
     display: flex;
 }
+
+.Product button{
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    margin: 0 4px 0 4px;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.Product .qtyBox .qty .MinusBtn{
+    background-color: #fb7272;
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+}
+.Product .qtyBox .qty .AddBtn{
+    background-color: #39b9f9;
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+}
+.Product .qtyBox .qty .AddItem{
+    background-color: #f6f6f5;
+    color: #410707;
+    border: 1px solid #570606;
+}
+
+.Product .qtyBox .qty .MinusBtn:disabled{
+    background-color: #f4c8c8;
+}
+
+.Product .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .Product .qtyBox{
     display: flex;
-    justify-content: space-between;
-
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 800;
     /* border: 1px solid black; */
 }
 
 .Product .product-details h3, h4, p{
+    text-align: justify;
     margin: 0.4rem;
 
     /* border: 1px solid black; */
 }
+

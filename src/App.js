@@ -6,8 +6,6 @@ import Cart from './Cart'
 // import products
 import {products} from './Products'
 
-
-
 function App() {
 
   const [product, setProduct] = useState(products);
