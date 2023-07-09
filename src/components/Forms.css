@@ -1,0 +1,17 @@
+.Forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 40%;
+
+    border: 1px solid black;
+}
+
+
+@media (max-width: 768px){
+    .Forms{
+      width: 90%;
+    }
+  }

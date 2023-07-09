@@ -4,7 +4,7 @@ import './Header.css';
 function Header(){
     return(
         <div className="Header">
-            <h1>This is the Header</h1>
+            <h1>React Question App</h1>
         </div>
     
     );
