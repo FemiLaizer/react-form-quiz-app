@@ -34,30 +34,34 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-.App .question{
+.App .question {
   /* border: 1px solid rgb(212, 210, 210); */
   margin: 0 auto;
   width: 40%;
   border-radius: 0.4rem;
 }
 
-.App .btn{
+
+
+.App .btn {
   display: flex;
   margin: 0 auto;
   width: 70%;
-  
+
 }
 
-@media (max-width: 768px){
-  .App{
+@media (max-width: 768px) {
+  .App {
     flex-direction: column;
   }
-  .App .question{
+
+  .App .question {
     width: 90%;
   }
 }

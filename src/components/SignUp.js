@@ -1,10 +1,18 @@
 import Form from "./Form";
 
-const SignUp = () => {
-    return(
-        <div style={{width: '90%' }}>
-            <h1>This is SignUp Form</h1>
-            <Form btn="Sign Up" user="username" email="email" pass="password" findAccount="Already have Account?" />
+const SignUp = ({ submitForm, changeForm, switchForms }) => {
+    return (
+        <div style={{ width: '90%' }}>
+            <Form formText="SignUp Form"
+                btn="Sign Up"
+                user="username"
+                email="email"
+                pass="password"
+                findAccount="Already have Account?"
+                submitForm={submitForm}
+                changeForm={changeForm}
+                switchForms={switchForms}
+            />
         </div>
     )
 }

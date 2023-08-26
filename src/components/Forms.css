@@ -1,17 +1,25 @@
-.Forms{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    width: 40%;
+.Forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 40%;
+  background: #fff;
 
-    border: 1px solid black;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 100;
+  box-shadow: 0.1rem 0.1rem 0.6rem 0.2rem #807777;
 }
 
 
-@media (max-width: 768px){
-    .Forms{
-      width: 90%;
-    }
+@media (max-width: 768px) {
+  .Forms {
+    width: 90%;
   }
+}
